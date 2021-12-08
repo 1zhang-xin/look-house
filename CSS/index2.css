@@ -1,0 +1,261 @@
+.img-one{
+    width: 100%;
+    height: 30rem;
+  
+    background: url(../img/首页/banner.png) no-repeat;
+    background-size: cover;
+}
+.img-two{
+    width: 90%;
+    height: 4rem;
+    border: solid .1rem black;
+    border-radius: .5rem;
+    margin: 0rem auto;
+   position: relative;
+   bottom: -80%;
+   background-color: white;
+}
+#ip{
+    width: 80%;
+    height: 96%;
+   border: solid white 0rem;
+   outline: none;
+   padding-left: 4rem;
+   background: url(../img/首页/seach.jpg) no-repeat .3rem .5rem;
+   background-size: 3rem;
+}
+
+.xinfang{
+    width: 100%;
+    height: 15rem;
+    background-color: #ff8a00;
+    display: flex;
+}
+.xinfang>div{
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 11rem;
+    box-sizing: border-box;
+}
+.xf-one{
+    flex: 1;
+    background-color: orchid;
+    background: url(../img/首页/index_03.png) no-repeat 1rem 3rem;
+    background-size: 80%;
+}
+.xf-two{
+    flex: 1;
+    background-color: red;
+    background: url(../img/首页/index_05.png) no-repeat 1rem 3rem;
+    background-size: 80%;
+}
+.xf-three{
+    flex: 1;
+    background-color: orchid;
+    background: url(../img/首页/index_07.png) no-repeat 1rem 3rem;
+    background-size: 80%;
+}
+.xf-four{
+    flex: 1;
+    background-color: blue;
+    background: url(../img/首页/index_09.png) no-repeat 1rem 3rem;
+    background-size: 80%;
+}
+.zixun{
+    width: 100%;
+    height: 33rem;
+  background-color: rgb(225,220,222);
+    display: flex;
+    align-items: center;
+}
+.zx-one{
+    width: 100%;
+    height: 90%;
+   background: url(../img/首页/banner2.png) no-repeat;
+   background-size: cover;
+}
+
+
+
+
+
+
+.tuijian{
+    width: 100%;
+    height: 50rem;
+   
+}
+.tj-one{
+    width: 100%;
+    height: 18%;
+    
+    border-bottom: .1rem solid #ccc;
+    background-color: #ff8a00;
+    color: white;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+#hot{
+    position: relative;
+    left: -7.9rem;
+    top: 2.5rem;
+    font-size: 1.2rem;
+}
+.tj-two{
+    width: 100%;
+    height: 39%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: solid #ff8a00 .1rem;
+    margin-top: 0rem;
+}
+.tj-two-one{
+    width: 90%;
+    height: 90%;
+   
+  
+   
+
+}
+.one-one{
+    width: 100%;
+    height: 70%;
+  
+   display: flex;
+
+}
+.one-one-one{
+    flex: 1;
+  
+    background: url(../img/首页/img1.jpg) no-repeat;
+    background-size: cover;
+   position: relative;
+   left: -1rem;
+}
+.one-one-two{
+  
+    flex: 2;
+  
+}
+.one-one-two>h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.one-one-two>p{
+    margin-top: 1.4rem;
+    font-size: 1.4rem;
+}
+.one-one-two>p>span{
+    margin-left: 7rem;
+    color: orangered;
+}
+#span{
+    margin-left: 9rem;
+}
+/* .one-two{
+    width: 100%;
+    height: 29%;
+    background-color: rgb(242,242,242);
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+
+} */
+/* .tj-three{
+    width: 100%;
+    height: 10%;
+   
+    border-top: .1rem solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #ccc;
+} */
+.guanzhu{
+    width: 100%;
+    height: 7rem;
+   display: flex;
+}
+.gz-one{
+    flex: 1;
+   
+    border-bottom: solid .2rem #ff8a00;
+    color: #ff8a00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.gz-two{
+    flex: 1;
+    border-bottom: solid .1rem #ff8a00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.beijing{
+    width: 100%;
+    height: 18rem;
+  display: flex;
+}
+.bj-one{
+    flex: 1;
+  
+}
+.bj-one>p{
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    padding-left: 3rem;
+    box-sizing: border-box;
+}
+.bj-two{
+    flex: 1;
+   
+}
+.bj-two>p{
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    padding-left: 3rem;
+    box-sizing: border-box;
+}
+
+.boss{
+    position: relative;
+}
+#dengwei{
+    width: 100%;
+    height: 6rem;
+   
+  position: fixed;
+  left: 0rem;
+  top: 61rem;
+  
+  display: flex;
+}
+.dw-one{
+    background-color:rgb(127,127,127);
+    opacity: .8;
+    z-index: 2;
+    flex: 2;
+    
+}
+.dw-two{
+    background-color:#ff8a00 ;
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2rem;
+   color: white;
+}

@@ -1,0 +1,386 @@
+
+nav{
+    width: 100%;
+    height: 20rem;
+  
+    background: url(../img/北京租房2/img.png) no-repeat;
+     background-size: cover;
+}
+.tianone{
+    width: 100%;
+    height: 20rem;
+   border: .1rem solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/北京租房2/phone.png) no-repeat 33rem 8rem;
+}
+.tiantwo{
+    width: 90%;
+    height: 90%;
+   
+}
+.tiantwo>p{
+    margin-top: 1rem;
+    font-size: 1.6rem;
+   
+}
+.tiantwo>h2{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+.tiantwo>span{
+    width: 1rem;
+    height: 1rem;
+  
+    background-color: rgb(223, 217, 217);
+    margin-top: 0rem;
+    font-size: 1.4rem;
+    position: relative;
+    top: 1rem;
+}
+.tiantwo>p>span{
+   
+    color: orangered;
+}
+
+
+
+
+.louceng>ul>li{
+    list-style: none;
+    height: 11%;
+    font-size: 1.5rem;
+}
+.louceng{
+    width: 100%;
+    height: 50rem;
+    border: solid .1rem #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lcone{
+    width: 90%;
+    height: 90%;
+   
+}
+.lctwo{
+    border-bottom: .1rem solid #ccc;
+    display: flex;
+
+}
+.lctwo-one{
+    flex: 1;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lctwo-two{
+    flex: 1;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lcthree{
+    border-bottom: .1rem solid #ccc;
+    display: flex;
+}
+.lcfour{
+    display: flex;
+    border-bottom: .1rem solid #ccc;
+}
+
+.fangyuan{
+    width: 100%;
+    height: 25rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.fangyuanone{
+    width: 90%;
+    height: 90%;
+ 
+    display: flex;
+    flex-direction: column;
+}
+.fy-one{
+    flex: 1;
+    border-bottom: solid .1rem #ccc;
+    color: orangered;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.fy-two{
+    flex: 2;
+    border-bottom: solid .1rem #ccc;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.fy-three{
+    flex: 1;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+    border-bottom: .1rem solid #ccc;
+}
+
+
+
+
+.hx{
+    width: 100%;
+    height: 35rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+.hxone{
+    width: 90%;
+    height: 90%;
+ 
+    display: flex;
+    flex-direction: column;
+}
+.hx-one{
+    flex: 1;
+    border-bottom: solid .1rem #ccc;
+    color: orangered;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.hx-two{
+   
+    flex: 2;
+    border-bottom: solid .1rem orangered;
+  display: flex;
+  flex-direction: row;
+ 
+ 
+    
+}
+.hx-two-one{
+    flex: 1;
+   
+    background: url(../img/北京租房2/img4.png) no-repeat 0rem 0rem;
+   
+}
+.hx-two-one-one{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+.hx-two-one-two{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+.hx-two-one-three{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+.hx-two-two{
+    flex: 2;
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.hx-three{
+    margin-top: 1rem;
+    flex: 2;
+    font-size: 1.5rem;
+  
+    display: flex;
+   
+}
+.ht-o{
+    flex: 1;
+    background: url(../img/北京租房2/img5.png) no-repeat ;
+    
+}
+.ht-t{
+    flex: 2;
+}
+.ht-t>p{
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+
+
+.duikou{
+    width: 100%;
+    height: 45rem;
+  
+}
+.duikou-one{
+    width: 100%;
+    height: 90%;
+    border: solid .1rem #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.duikou-one>li{
+    list-style: none;
+    width: 90%;
+    height: 13.5%;
+   
+    border-bottom: solid .1rem #ccc;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.duikou-one>.dk-two{
+    border-bottom: solid 0rem #ccc;
+    justify-content: center;
+    color: #ccc;
+}
+.duikou-one>.dk-one{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.zhoubian{
+    width: 100%;
+    height: 35rem;
+   border: solid .1rem #ccc;
+}
+
+.zhoubian>li{
+    list-style: none;
+    width: 90%;
+    margin: 0 auto;
+}
+.zhoubian>.zb-one{
+    height: 16%;
+    border-bottom: .1rem solid #ccc;
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+
+}
+.zhoubian>.zb-two{
+    height: 78%;
+  
+    margin-top: 2rem;
+    background: url(../img/北京租房/map.png) no-repeat;
+    background-size: cover;
+}
+
+
+.tuijian{
+    width: 100%;
+    height: 50rem;
+   
+}
+.tj-one{
+    width: 100%;
+    height: 10%;
+    
+    border-bottom: .1rem solid #ccc;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.tj-two{
+    width: 100%;
+    height: 39%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: solid #ccc .1rem;
+    margin-top: 0rem;
+}
+.tj-two-one{
+    width: 90%;
+    height: 90%;
+   
+  
+   
+
+}
+.one-one{
+    width: 100%;
+    height: 70%;
+  
+   display: flex;
+
+}
+.one-one-one{
+    flex: 1;
+  
+    background: url(../img/北京租房2/img6.png) no-repeat;
+    background-size: cover;
+   position: relative;
+   left: -1rem;
+}
+.one-one-two{
+  
+    flex: 2;
+  
+}
+.one-one-two>h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.one-one-two>p{
+    margin-top: 1.4rem;
+    font-size: 1.4rem;
+}
+.one-one-two>p>span{
+    margin-left: 7rem;
+    color: orangered;
+}
+#span{
+    margin-left: 9rem;
+}
+.one-two{
+    width: 100%;
+    height: 29%;
+    background-color: rgb(242,242,242);
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+
+}
+.tj-three{
+    width: 100%;
+    height: 10%;
+   
+    border-top: .1rem solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #ccc;
+}
