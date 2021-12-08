@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <script src=""></script>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    background-color: #f5f5f5;
+}
+.boss{
+    width: 100%;
+    position: relative;
+    
+
+}
+header{
+    width: 100%;
+    height: 6rem;
+    background-color: #ff8a00;
+     display: flex;
+    
+     
+
+}
+
+.h1{
+ 
+    flex: 4;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 3rem;
+    box-sizing: border-box;
+   
+}
+.h1>img{
+  
+    height: 60%;
+}
+
+.h2{
+  
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.h2>img{
+   
+    height: 60%;
+}
+.h3{
+  
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3rem;
+   
+}
+.h3>img{
+  
+    height: 60%;
+}
+
+
+
+
+
+
+
+        
+     .sw{
+        padding: 3rem 4rem;
+         font-size: 3rem;
+     }
+     .lbox{
+         width: 100%;
+         /* height: 60rem; */
+         background: url(./img/登录/bg2.png)no-repeat;
+         background-size: cover;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+        }
+.lbi{
+  width: 15rem;
+  height: 15rem;
+  margin-top: 3rem;
+  
+}
+.wel{
+font-size: 3rem;
+text-align: center;
+margin-top: 6rem;
+color: #ffffff;
+}
+.db{
+       margin-top: 2rem; 
+       background-color: #ffffff;
+}
+   .db1{
+       
+       list-style: none;
+       
+   }
+   .db li{
+       height: 6rem;
+       line-height: 6rem;
+       border-bottom: .3px solid #dcdcdc;
+
+   }
+
+   .db a{
+       font-size: 2rem;
+       color: #666666;
+       text-decoration: none;
+   }
+   .db2 img{
+       width: 2rem;
+       height: 2rem;
+       margin: 2rem 2rem;
+   }
+   .db2 a{
+       margin-left: 2rem;
+   }
+   .db2{
+       display: flex;
+       /* justify-content: center; */
+    justify-content: space-between;
+   }
+   .db2:last-of-type a{
+       border-bottom: none;
+   }
+   .ldd{
+    width: 21rem;
+     height: 3rem;
+    font-size: 2rem;
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    
+    
+   }
+   .ldd a{
+    text-decoration: none;
+    color: #ff8a00;
+   
+   }
+</style>
+</head>
+<body>
+    
+
+
+
+
+
+    <div class="boss">
+        <header>
+              <div class="h1">
+                  <img src="./img/首页/logo.jpg" alt="">
+              </div>
+              <div class="h2">
+                  <img src="./img/首页/my.jpg" alt="">
+              </div>
+              <div class="h3">
+                  <img src="./img/首页/xiazai.jpg" alt="">
+              </div>
+        </header>
+        <div class="sw">
+            <p><strong>首页</strong> > <span>我的</span></p>
+        </div>
+        <div class="lbox">
+            <img class="lbi" src="./img/登录/urse2.png" alt="">
+            <div class="wel"><p>欢迎你，18686868686</p></div>
+            </div>
+        <div class="db">
+            <ul class="db1">
+                <li class="db2"><a href="#">我关注的房源</a><img src="./img/登录/right.png" alt=""></li>
+                <li class="db2"><a href="#">我关注的小区</a><img src="./img/登录/right.png" alt=""></li>
+                <li class="db2"><a href="#">我的看房记录</a><img src="./img/登录/right.png" alt=""></li>
+            </ul>
+        </div>   
+       <div class="ldd"><a href="">退出登录</a></div>
+
+
+</div>
+</body>
+</html>
+<script>
+    function setRem() {
+        var ui_w = 375;
+        // 获取屏幕的宽度
+        var clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
+        console.log(ui_w,clientWidth);
+
+        // 通过js动态改变html根节点字体大小
+        var html_ = document.getElementsByTagName('html')[0];
+        html_.style.fontSize = (clientWidth/ui_w)*10 +'px';
+    }
+    // window.onresize 浏览器被重置大小执行事件
+    window.onresize = setRem;
+
+
+</script>
