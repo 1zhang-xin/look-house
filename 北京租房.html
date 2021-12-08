@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <script src=""></script>
+<style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    background-color: #f5f5f5;
+}
+.boss{
+    width: 100%;
+    position: relative;
+    
+
+}
+header{
+    width: 100%;
+    height: 6rem;
+    background-color: #ff8a00;
+     display: flex;
+    
+     
+
+}
+
+.h1{
+ 
+    flex: 4;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 3rem;
+    box-sizing: border-box;
+   
+}
+.h1>img{
+  
+    height: 60%;
+}
+
+.h2{
+  
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.h2>img{
+   
+    height: 60%;
+}
+.h3{
+  
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3rem;
+   
+}
+.h3>img{
+  
+    height: 60%;
+}
+
+.zcl{
+    height: 5rem;
+    line-height: 5rem;
+    display: flex;
+    background-color: #ffffff;
+    
+    font-size: 2.5rem;
+    border-bottom: 1px #c5c5c5;
+}
+.zcl p{
+    margin-left: 10px;
+}
+
+.sou{
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+    /* border: .2rem solid #ff8a00; */
+    margin-top: 1rem;
+}
+.souk{
+    width: 35rem;
+    height: 4rem;
+    display: flex;
+}
+.souk input{
+    width: 100%;
+    height: 4.5rem;
+   font-size: 1.6rem;
+   background: url(./img/北京租房2/search_03.png) right center no-repeat;
+}
+.souk span{
+    position: absolute;
+    top: 13.2rem;
+    right: 9rem;
+    font-size: 2rem;
+}
+
+.qy{
+    margin-top: 1rem;
+    background-color: #ffffff;
+    list-style: none;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.qy>li{
+    line-height: 5rem;
+    font-size: 1.8rem;
+    
+}
+.qy>li>h2>a{
+    text-decoration: none;
+    color: #666666;
+}
+.qy>li>h2>a>span{
+    border-top: 5px solid #ccc;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    position: absolute;
+    top: 14rem;
+}
+
+
+
+
+.ltu{
+    
+    background-color: #f5f5f5;
+}
+
+.zuotu img{
+    width: 12rem;
+    height: 10rem;
+}
+.youzi{
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.lul{
+    display: flex;
+    flex-direction: column;
+    
+}
+.ll{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #ff8a00;
+    align-items: center;
+    padding: 2rem 0;
+}
+.ll:last-of-type{
+
+    border-bottom: none;
+}
+.youzi strong{
+    color: #ff8a00;
+}
+.retalCont1{
+    display: flex;
+    justify-content: space-around;
+}
+.retalCont1>span{
+    color: #6da719;
+    float: left;
+    padding: 0 0.05rem;
+    border: 1px solid #6da719;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 20rem;
+    background-color: #2f3130;
+  
+   display: flex;
+}
+.f1{
+    flex: 1;
+   
+}
+.f2{
+    flex: 16;
+   
+}
+.f3{
+    flex: 1;
+   
+}
+.dibu{
+    list-style: none;
+    width: 100%;
+    height: 19rem;
+    display: flex;
+    flex-direction: column;
+}
+.li1{
+    flex: 1;
+    color: rgb(147,148,148);
+    border-bottom: rgb(147,148,148) .1rem solid;
+   display: flex;
+   align-items: center;
+  
+}
+.li2{
+    flex: 3;
+  
+    display: flex;
+  
+}
+.z1{
+    flex: 1;
+  
+    display: flex;
+}
+.ss1{
+    flex: 1;
+    /* background-color: seagreen; */
+    display: flex;
+
+    align-items: center;
+}
+.ss2{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(147,148,148);
+    align-content: center;
+}
+.ss3{
+    flex: 1;
+  
+}
+
+.z2{
+    flex: 1;
+    display: flex;
+}
+.li3{
+    flex: 1;
+    color: rgb(147,148,148);
+    
+}
+.li3>p{
+    text-align: center;
+    font-size: 1.4rem;
+}
+</style>
+</head>
+
+<body>
+
+    <div class="boss">
+        <header>
+              <div class="h1">
+                  <img src="./img/首页/logo.jpg" alt="">
+              </div>
+              <div class="h2">
+                  <img src="./img/首页/my.jpg" alt="">
+              </div>
+              <div class="h3">
+                  <img src="./img/首页/xiazai.jpg" alt="">
+              </div>
+        </header>
+
+        <div class="zcl">
+            <p><strong>首页</strong> > <span>北京租房</span></p>
+        </div>
+      <div class="sou">
+          <div class="souk"> 
+              <input type="text" placeholder="输入小区名或商圈名称">
+              <span>|</span>
+          </div>
+      </div>
+      
+      <ul class="qy">
+        <li>
+          
+            <h2><a href="#">区域<span></span></a></h2>
+        </li>
+        <li>
+            <h2><a href="#">月租<span></span></a></h2>
+        </li>
+        <li>
+            <h2><a href="#">房型<span></span></a></h2>
+        </li>
+        <li>
+            <h2><a href="#">更多<span></span></a></h2>
+        </li>
+      </ul>
+ 
+
+
+      <div class="ltu">
+        <ul class="lul">
+            <li class="ll">
+                <div class="zuotu"><img src="./img/登录/img1.png" alt=""></div>
+        <div class="youzi">
+            <h3>南沙滩小区 超低价急售</h3>
+                <p>2室1厅 96㎡ 南北</p>
+                <div>青岛新天地</div>
+                <div class="retalCont1"><span>集中供暖</span><strong>3700元/月</strong></div>
+        </div>
+            </li>
+
+            <li class="ll">
+                <div class="zuotu"><img src="./img/登录/img2.png" alt=""></div>
+        <div class="youzi">
+            <h3>南沙滩小区 超低价急售</h3>
+            <p>2室1厅 96㎡ 南北</p>
+            <div>青岛新天地</div>
+            <div class="retalCont1"><span>集中供暖</span><strong>3700元/月</strong></div>
+        </div>
+            </li>
+            <li class="ll">
+                <div class="zuotu"><img src="./img/登录/img3.png" alt=""></div>
+        <div class="youzi">
+            <h3>南沙滩小区 超低价急售</h3>
+            <p>2室1厅 96㎡ 南北</p>
+            <div>青岛新天地</div>
+            <div class="retalCont1"><span>集中供暖</span><strong>3700元/月</strong></div>
+        </div>
+            </li>
+            <li class="ll">
+                <div class="zuotu"><img src="./img/登录/img4.png" alt=""></div>
+        <div class="youzi">
+            <h3>南沙滩小区 超低价急售</h3>
+                <p>2室1厅 96㎡ 南北</p>
+                <div>青岛新天地</div>
+                <div class="retalCont1"><span>集中供暖</span><strong>3700元/月</strong></div>
+        </div>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <footer>
+        <div class="f1"></div>
+        <div class="f2">
+            <ul class="dibu">
+                <li class="li1">
+                    <h2>北京找房无忧 > 首页</h2>
+                </li>
+                <li class="li2">
+                      <div class="z1">
+                          <span class="ss1">
+                              <img src="./img/首页/apple.png" alt="">
+                          </span>
+                          <span class="ss2">
+                              <p>iPhone</p>
+                              <p>客户端</p>
+                          </span>
+                          <span class="ss3"></span>
+                      </div>
+                      <div class="z2">
+                         <span class="ss1">
+                             <img src="./img/首页/android.png" alt="">
+                         </span>
+                         <span class="ss2">
+                             <p>Androis</p>
+                             <p>客户端</p>
+                         </span>
+                         <span class="ss3"></span>
+                      </div>
+                </li>
+                <li class="li3">
+                    <p>北京找房无忧房地产经纪公司</p>
+                    <p>网络经营许可证京ICP备20160812号</p>
+                </li>
+            </ul>
+        </div>
+        <div class="f3"></div>
+ </footer>
+    </div>     
+    </body>
+    </html>
+<script>
+    function setRem() {
+        var ui_w = 375;
+        // 获取屏幕的宽度
+        var clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
+        console.log(ui_w,clientWidth);
+
+        // 通过js动态改变html根节点字体大小
+        var html_ = document.getElementsByTagName('html')[0];
+        html_.style.fontSize = (clientWidth/ui_w)*10 +'px';
+    }
+    // window.onresize 浏览器被重置大小执行事件
+    window.onresize = setRem;
+
+
+</script>
